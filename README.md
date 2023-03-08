@@ -25,7 +25,7 @@ Here is a list of the final build & mods.
 * Octopus Pro mainboard.
 * Minor under the hood items, as I went with a OrangePi4 LTS (easier and cheaper to aquire than the standard Raspy4 at this point in history), a variant with an EMMC drive to hopefully have a more secure feeling about not zapping my OS if printer gets turned off without a proper shutdown (which you should always do anyways!).  Also added a additional 5v buck converter to supply it, rest down there is stock other than a nicer touch screen I had available.
 * Crowsnest to a Logitech C920X webcam.
-* A usb plugable adxl module driven by it's own raspberry pi pico, this is from [Nero's Youtube] (https://www.youtube.com/watch?v=W_VHbT_tsZw&ab_channel=NERO3D).
+* A usb plugable adxl module driven by it's own raspberry pi pico, this is from [Nero's Youtube](https://www.youtube.com/watch?v=W_VHbT_tsZw&ab_channel=NERO3D).
 * A CanBus Toolhead board, the SB2240 from BigTreeTech.  This asside from allowing me to go full umbilical that drives the extruder, heater, fans and SB neopixels is a nice looking option that I find really reliable.  CanBus couldn't support the onboard ADXL chip, as it will be bandwidth limited, or is in my case, to only 60HZ, but everything else on the head (Extruder, Revo, Fans, Neopixels, Tap, w/ onboard temp sensor) has never failed me with the stock supply umbilical cable.
 * Note the SB2240 uses the latest TMC2240 driver chip, and I am thankful that the Klipper team got this included in the current distro, only took like 6 weeks.
 * Added in a filament sensor also, a self built one.
