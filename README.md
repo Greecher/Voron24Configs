@@ -28,7 +28,8 @@ Here is a list of the final build & mods.
 * A usb plugable adxl module driven by it's own raspberry pi pico, this is from [Nero's Youtube](https://www.youtube.com/watch?v=W_VHbT_tsZw&ab_channel=NERO3D).
 * A CanBus Toolhead board, the SB2240 from BigTreeTech.  This asside from allowing me to go full umbilical that drives the extruder, heater, fans and SB neopixels is a nice looking option that I find really reliable.  CanBus couldn't support the onboard ADXL chip, as it will be bandwidth limited, or is in my case, to only 60HZ, but everything else on the head (Extruder, Revo, Fans, Neopixels, Tap, w/ onboard temp sensor) has never failed me with the stock supply umbilical cable.
 * Note the SB2240 uses the latest TMC2240 driver chip, and I am thankful that the Klipper team got this included in the current distro, only took like 6 weeks.
-* Added in a filament sensor also, a self built one.
+* Added in a filament sensor also, the bigtree tech one [Amazon](https://www.amazon.com/gp/product/B07ZTM9CSQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
+* Upgraded the voron tap module to the CHAOTICLAB CNC Voron Tap, get at their site or Fabreeko.
 
 ## Klipper Software Customization
 * Sensorless X & Y homing, this [guide](https://docs.vorondesign.com/community/howto/clee/sensorless_xy_homing.html) made it a snap, and works excellently.
