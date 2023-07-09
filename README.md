@@ -29,7 +29,12 @@ Here is a list of the final build & mods.
 * A CanBus Toolhead board, the SB2240 from BigTreeTech.  This asside from allowing me to go full umbilical that drives the extruder, heater, fans and SB neopixels is a nice looking option that I find really reliable.  CanBus couldn't support the onboard ADXL chip, as it will be bandwidth limited, or is in my case, to only 60HZ, but everything else on the head (Extruder, Revo, Fans, Neopixels, Tap, w/ onboard temp sensor) has never failed me with the stock supply umbilical cable.
 * Note the SB2240 uses the latest TMC2240 driver chip, and I am thankful that the Klipper team got this included in the current distro, only took like 6 weeks.
 * Added in a filament sensor also, the bigtree tech one [Amazon](https://www.amazon.com/gp/product/B07ZTM9CSQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
-* Upgraded the voron tap module to the CHAOTICLAB CNC Voron Tap, get at their site or Fabreeko.
+* Upgraded the voron tap module to the CHAOTICLAB CNC Voron Tap, get at their site or Fabreeko 7/1/2023.
+* Installed [KAMP](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging/blob/main/README.md) 7/9/2023, am using the following modules
+*   Smart_Park (sets toolhead near print area for extruder heatup).
+*   Line_Purge to add a line purge, again also near print area.
+*   Adaptive_Meshing to do a much more tailored mesh to the actual print area
+* Made various changes to properly get my print_start better, and working properly with prusaslicer start gcode. This version ensures to make bed heat to final temp at the start, extruder to start @ 150C for TAP max temp, then do the calibrate, then properly set and ensure the extruder and bed temps before proceeding.
 
 ## Klipper Software Customization
 * Sensorless X & Y homing, this [guide](https://docs.vorondesign.com/community/howto/clee/sensorless_xy_homing.html) made it a snap, and works excellently.
