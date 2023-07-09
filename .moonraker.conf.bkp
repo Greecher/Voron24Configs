@@ -3,6 +3,9 @@ host = 0.0.0.0
 port = 7125
 klippy_uds_address = /home/pi/printer_data/comms/klippy.sock
 
+[file_manager]
+enable_object_processing = True
+
 [authorization]
 trusted_clients = 
 	10.17.0.0/16
@@ -49,4 +52,12 @@ type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
 install_script = tools/install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
 
