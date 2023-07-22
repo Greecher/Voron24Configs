@@ -7,7 +7,7 @@ This is the Klipper Config for my 300mm Voron 2.4. This is built out with everyt
 This is the real actual config that I run on my printer. This is the repository that is created from a push from my printer to share, but also backup in case of catastrophe.  For the use cases of this printer and mods deployed, maybe of use to someone else whom has those mods. ***Use at your own risk.***
 
 ## Goals for this printer
-* A printer that would catch me up to date on what's available tech wise today (early 2023), superceding my old and retired Hypercube Evolution, another self built printer that was wholly sourced by yours truly.
+* A printer that would catch me up to date on what's new and available tech wise as of early to mid 2023, superceding my old and retired Hypercube Evolution, another self built printer that was wholly sourced by yours truly.
 * A printer that gets used for printing functional parts. I commonly print in ASA now and still PLA when it doesn't matter as much.  I design most of what I consume, but occasionally will visit [Printables](https://www.printables.com), as well as share out my own designs there as well.
 * Reliability, Repeatability, Usability & Print Quality - I don't necessarily care about absolute maximum print speed, but when I want a print, I want success.
 
