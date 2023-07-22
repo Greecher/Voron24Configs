@@ -1,4 +1,4 @@
-# Greecher/Voron24Configs
+# Greecher Voron 2.4R2 Setup, V2.5730 registered 7/23
 
 This is the Klipper Config for my 300mm Voron 2.4. This is built out with everything I wanted to do, may add mods later, but as of now completely happy with it.
 
