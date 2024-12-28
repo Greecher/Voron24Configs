@@ -53,6 +53,14 @@ path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
 install_script = tools/install.sh
 
+[update_manager moonraker-telegram-bot]
+type = git_repo
+path = ~/moonraker-telegram-bot
+origin = https://github.com/nlef/moonraker-telegram-bot.git
+env = ~/moonraker-telegram-bot-env/bin/python
+requirements = scripts/requirements.txt
+install_script = scripts/install.sh
+
 [update_manager Klipper-Adaptive-Meshing-Purging]
 type = git_repo
 channel = dev
