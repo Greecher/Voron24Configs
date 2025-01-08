@@ -69,3 +69,22 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
+[update_manager CanBoot]
+type = git_repo
+path = /home/pi/CanBoot
+origin = https://github.com/Arksine/CanBoot.git
+is_system_service = False
+
+[webcam v2_cam]
+icon = 
+enabled = false
+service = mjpegstreamer
+target_fps = 15
+target_fps_idle = 5
+stream_url = /webcam/?action=stream
+snapshot_url = /webcam/?action=snapshot
+flip_horizontal = false
+flip_vertical = false
+rotation = 180
+aspect_ratio = 4:3
+
